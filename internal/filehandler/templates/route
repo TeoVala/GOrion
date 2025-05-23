@@ -1,0 +1,20 @@
+package {name}
+
+import (
+	// "{rootfold}/config/handlers"
+	routerstore "{rootfold}/internal/router/store"
+	"net/http"
+)
+
+func {Name}Routes() {
+	r := routerstore.GetRouter()
+
+	// Route without handler
+	r.Get("/{name}", func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("Handler for {name}!"))
+	})
+
+	// Route with handler
+	// r.Get("/{name}", handlers.{Name}Handler)
+	
+}

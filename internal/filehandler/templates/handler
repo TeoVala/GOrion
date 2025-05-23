@@ -1,0 +1,8 @@
+package handlers
+
+import "net/http"
+
+// Define All your handlers here
+func {Name}Handler(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("Handler for {name}!"))
+}
