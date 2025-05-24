@@ -37,7 +37,7 @@ GOrion is a streamlined Go project thats aims rapid API development. It provides
 ### Installation
 
 ```bash
-go get github.com/TeoVala/GOrion
+git clone https://github.com/TeoVala/GOrion.git
 ```
 
 ### Usage
